@@ -13,7 +13,7 @@ while True:
         if guess == "heads" or guess == "tails":
             break
         else:
-            print("That's not a valid guess, try again.")
+            print("That's not a valid answer, choose heads or tails and try again..")
 
     if guess == coin:
         streak += 1
@@ -21,14 +21,14 @@ while True:
 
         if streak >= 5:
             points = points * 2
-            print("You're on a streak! Points have doubled.")
+            print("You're now on a streak! Points have doubled.")
 
         score += points
         print(f"Correct, it was {coin}! You got {points} point(s).")
 
     else:
         streak = 0
-        print(f"Nope, it was {coin}. Streak has been reset.")
+        print(f"Nope, it was {coin}. Streak has been reset to 0.")
 
     print(f"Score: {score}  Streak: {streak}")
     print("-" * 20)

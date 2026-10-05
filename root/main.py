@@ -13,6 +13,6 @@ while True:
             print("Invalid input.")
 
     if guess == coin:
-        print("Correct! The coin was", coin.capitalize())
+        print("Correct bro! The coin was", coin.capitalize())
     else:
-        print("Incorrect. The coin was", coin.capitalize())
+        print("Incorrect bro. The coin was", coin.capitalize())
